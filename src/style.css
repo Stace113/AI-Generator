@@ -7,8 +7,11 @@ body {
 }
 
 .container {
-    width: auto;
+    max-width: 500px;
     height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
     background-color: rgba(3, 78, 131, 0.478);
     color: white;
     text-align: center;
