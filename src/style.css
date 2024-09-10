@@ -15,4 +15,9 @@ body {
     background-color: rgba(3, 78, 131, 0.478);
     color: white;
     text-align: center;
+    padding: 50px 60px 25px 60px;
+}
+
+footer {
+    font-size: 12px;
 }
