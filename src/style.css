@@ -4,6 +4,7 @@ body {
     background-color: rgba(255, 255, 255, 0.8);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .container {
@@ -16,8 +17,48 @@ body {
     color: white;
     text-align: center;
     padding: 50px 60px 25px 60px;
+    border-radius: 20px;
 }
 
 footer {
     font-size: 12px;
+}
+
+h1 {
+    margin: 50px auto;
+    font-size: 40px;
+}
+
+form {
+    margin: 0 0 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.instructions {
+    padding: 10px;
+    margin: 10px 5px 10px 10px;
+    width: 50%;
+    font-size: 14px;
+    border-radius: 20px;
+    line-height: 1.5;
+    border: none;
+}
+
+.submit-button {
+    background-color: rgb(226, 226, 230);
+    border: none;
+    margin: 10px 10px 10px 5px;
+    padding: 0 20px 0 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 100px;
+}
+
+.answer {
+    font-size: 16px;
+    margin: 10px;
+    padding: 20px;
+    margin-bottom: 40px;
+    line-height: 2;
 }
