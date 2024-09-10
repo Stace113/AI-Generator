@@ -84,5 +84,5 @@ form {
 }
 
 .blink {
-    animation: blink 0.75s step-start 0s infinite;
+    animation: blink 0.85s step-start 0s infinite;
 }
