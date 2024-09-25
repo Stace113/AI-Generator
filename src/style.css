@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/145/048/original/istockphoto-1394440950-612x612.jpg?1727296275);
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/145/078/original/flowers.png?1727302570);
     background-blend-mode: lighten;
     background-color: rgba(255, 255, 255, 0.6);
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@ form {
     margin-left: 15%;
     font-style: italic;
     font-size: 12px;
-    color: rgb(146, 165, 117);
+    color: rgb(81, 186, 210);
 }
 
 .instructions {
