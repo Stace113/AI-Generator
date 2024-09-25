@@ -1,10 +1,12 @@
 body {
-    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/142/877/original/Comp-Sci.jpg?1725969122);
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/145/048/original/istockphoto-1394440950-612x612.jpg?1727296275);
     background-blend-mode: lighten;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.6);
     background-repeat: no-repeat;
-    background-size: cover;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-size: 100%;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .container {
@@ -13,7 +15,7 @@ body {
     display: block;
     margin: 0 auto;
     margin-top: 50px;
-    background-color: rgba(3, 78, 131, 0.478);
+    background-color: rgb(247, 207, 245, 0.9);
     color: white;
     text-align: center;
     padding: 50px 60px 25px 60px;
@@ -42,7 +44,7 @@ form {
     margin-left: 15%;
     font-style: italic;
     font-size: 12px;
-    color: rgb(236, 233, 233);
+    color: rgb(146, 165, 117);
 }
 
 .instructions {
@@ -53,16 +55,19 @@ form {
     border-radius: 20px;
     line-height: 1.5;
     border: none;
+    font-family: "Satisfy", cursive;
 }
 
 .submit-button {
-    background-color: rgb(226, 226, 230);
+    background-color: rgb(179, 150, 223);
+    color: white;
     border: none;
     margin: 10px 10px 10px 5px;
     padding: 0 20px 0 20px;
     border-radius: 20px;
     font-weight: bold;
     width: 100px;
+    font-family: "satisfy", cursive;
 }
 
 .poem {
@@ -71,6 +76,7 @@ form {
     padding: 20px;
     margin-bottom: 40px;
     line-height: 2;
+    color: rgb(0, 0, 0);
 }
 
 .hidden {
@@ -85,4 +91,8 @@ form {
 
 .blink {
     animation: blink 0.85s step-start 0s infinite;
+}
+
+footer {
+    font-family: "Times New Roman", Times, serif;
 }
